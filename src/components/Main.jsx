@@ -4,7 +4,8 @@ import {
   Navbar, 
   Home,
   Resume,
-  Projects 
+  Projects,
+  Footer 
 } from "./"
 
 const Main = () => {
@@ -16,7 +17,9 @@ const Main = () => {
       <Route path='/' element={<Home />} />
       <Route path='/resume' element={<Resume/>} />
       <Route path='/projects' element={<Projects/>} />
-      </Routes>
+
+      </Routes> 
+      <Footer />
       </div>
       </Router>
   )
