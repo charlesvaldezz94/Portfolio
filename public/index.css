@@ -31,12 +31,14 @@ body {
   max-height: fit-content;
   border: grey solid 1px;
   box-shadow: 2px 4px 5px 3px darkgrey;
+  border-radius: 3%;
 
 }
 
 .projectPic {
 height: 200px;
 width: 200px;
+border-radius: 50%;
 }
 
 .projectPic:hover {
