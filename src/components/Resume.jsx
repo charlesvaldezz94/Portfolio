@@ -19,30 +19,35 @@ const Resume = () => {
             <div className="resumePortion">
                 <h2> Profile </h2>
                 <div className="portionDescription">
-                    I am an entry-level software engineer with knowledge in languages such as CSS, HTML, and javascript. 
+                    I am an entry-level software engineer with knowledge in languages such as CSS, HTML, React and Javascript. 
                 </div>
-                <p> date </p>
             </div>
             <div className="resumePortion">
                 <h2> Education </h2>
                 <div className="portionDescription">
-                    description
+                    <p> University of Illinois at Chicago, IL</p>
+                    <p>Fullstack Academy Certificate in Web Development <span> Dec 2022</span></p>
+                    <p> Bachelor of Science in Kinesiology <span> May 2018 </span></p>
                 </div>
-                <p> date </p>
             </div>
             <div className="resumePortion">
-                <h2> Projects and Experience </h2>
+                <h2> Experience </h2>
                 <div className="portionDescription">
-                    description
+                    <p> 
+                        Software Developer 2022-Current Day
+                     <ul>
+                    <li> Fullstack Academy Bootcamp Projects</li>
+                    <li> Websites created using javascript and deployed through Netlify</li>
+                    </ul>
+                    </p> 
                 </div>
-                <p> date </p>
             </div>
             <div className="resumePortion">
                 <h2> Skills </h2>
                 <div className="portionDescription">
-                    description
+                    <p> Frontend: Javascript, React, HTML, CSS, NPM </p>
+                    <p> Backened: Node.js, Javascript </p>
                 </div>
-                <p> date </p>
             </div>
         </div>
 
