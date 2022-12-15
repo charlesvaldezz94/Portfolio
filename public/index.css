@@ -20,11 +20,12 @@ body {
   background-color: rgb(21, 21, 21);
   width: 100vw;
   color: white;
-  padding-bottom: 10px;
   padding-top: 10px;
   margin-top: 20px;
   height: 5%;
+  text-align: center;
 }
+
 
 
 /* PROJECTS CSS */

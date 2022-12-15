@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
     return (
         <div id="footerContainer">
-            <div> Contact Me | charlesvaldezz94@gmail.com </div>
+            <div id="footerContent"> Contact Me | charlesvaldezz94@gmail.com </div>
         </div>
     )
 }

@@ -33,13 +33,13 @@ const Resume = () => {
             <div className="resumePortion">
                 <h2> Experience </h2>
                 <div className="portionDescription">
-                    <p> 
+                    <div> 
                         Software Developer 2022-Current Day
                      <ul>
                     <li> Fullstack Academy Bootcamp Projects</li>
                     <li> Websites created using javascript and deployed through Netlify</li>
                     </ul>
-                    </p> 
+                    </div> 
                 </div>
             </div>
             <div className="resumePortion">
