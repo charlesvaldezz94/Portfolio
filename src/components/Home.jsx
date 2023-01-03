@@ -24,8 +24,11 @@ const Home = () => {
                     <p> I'm an entry level fullstack developer with knowledge in HTML, CSS, Javascript, and React. Checkout my recent projects and resume here on this site!</p> 
                     <div className="aboutMeButton">
                         <Popup  trigger={<button id="aboutMe"> About Me </button>}>
-                        <div id="aboutMePopup">
-                            I hope to continue learning about different code languages such as C Sharp in order to one day code my own video game.  
+                        <div className="aboutMePopup">
+                            I have completed a bachelors of science majoring in kinesiology at UIC, and I have worked as a certified Occupational Therapy Assistant. 
+                            </div>
+                            <div className="aboutMePopup">
+                                I have always loved playing with computers and video games. Those hobbies are what sparked my interest in web development. I hope to continue learning about different code languages such as C Sharp in order to one day code my own video game.
                             </div>
                             </Popup> 
                     </div>

@@ -17,7 +17,7 @@ const Resume = () => {
         <div className="resumeHeaderInfo">
           <span className="list">
             <ul>
-              <li> Software Engineer </li>
+              <li> Fullstack Web Developer </li>
               <li>Chicago, IL 60607, United States </li>
               <li> 847-609-6304 </li>
             </ul>
@@ -25,6 +25,7 @@ const Resume = () => {
         </div>
         </div>
       </div>
+
       <div className="resumePortion">
         <h2> Profile </h2>
         <div className="portionDescription">
@@ -32,6 +33,7 @@ const Resume = () => {
           as CSS, HTML, React and Javascript.
         </div>
       </div>
+
       <div className="resumePortion">
         <h2> Education </h2>
         <div className="portionDescription">
@@ -46,6 +48,7 @@ const Resume = () => {
           </p>
         </div>
       </div>
+
       <div className="resumePortion">
         <h2> Experience </h2>
         <div className="portionDescription">
@@ -54,13 +57,54 @@ const Resume = () => {
             <ul>
               <li> Fullstack Academy Bootcamp Projects</li>
               <li>
-                
-                Websites created using javascript and deployed through Netlify
+                Websites created using javascript and deployed through Netlify / AWS
               </li>
             </ul>
           </div>
         </div>
       </div>
+
+      <div className="resumePortion">
+        <h2> Personal Projects </h2>
+        <div className="portionDescription">
+          <div>
+            <span>
+            Pokedex 2022
+            </span>
+            <span>
+              website url
+            </span>
+            <ul>
+              <li> Fetched results from pokeAPI through axios </li>
+              <li> Deployed through AWS </li>
+              <li> 
+            <span>
+              Languages Used: HTML,
+              <img
+                className="languageLogo"
+                src="/images/html.png"
+                alt="html logo"
+              />
+              CSS,
+              <img
+                className="languageLogo"
+                src="/images/CSS.png"
+                alt="CSS logo"
+              />
+              Javascript
+              <img
+                className="languageLogo"
+                src="/images/JS.png"
+                alt="JS logo"
+              />
+            </span>
+          </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
       <div className="resumePortion">
         <h2> Skills </h2>
         <div className="portionDescription">
