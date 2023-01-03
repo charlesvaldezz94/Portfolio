@@ -9,10 +9,31 @@ body {
 }
 
 /* RESUME CSS */
+
+.resumePortion h2 {
+  text-decoration: underline;
+}
+
+.resumePortion {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ width: 75vw;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 #ResumePic {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#ResumeProfilePic {
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border-radius: 50%;
 }
 
 .resumeName {
@@ -44,9 +65,15 @@ margin-right: auto;
 }
 
 /* HOME CSS */
+
+#profilePic {
+  height: 200px;
+  border-radius: 50%;
+}
+
 .aboutMePopup {
-  background-color: rgb(208, 0, 0);
-  color: white;
+  background-color: rgb(227, 205, 168);
+  color: black;
   margin-left: 40vw;
   margin-right: 50vw;
   width: 500px;
@@ -68,8 +95,8 @@ margin-right: auto;
 
 #aboutMe {
   transform: scale(1.5);
-  background-color: rgb(208, 0, 0);
-  color: white;
+  background-color: rgb(227, 205, 168);
+  color: black;
   border-radius: 10%;
   margin-top: 30px;
   margin-left: 30px;
@@ -121,7 +148,7 @@ margin-right: auto;
 #footerContainer {
   position: fixed;
   bottom: 0;
-  background-color: rgb(21, 21, 21);
+  background-color: black;
   width: 100vw;
   color: white;
   padding-top: 10px;
@@ -200,11 +227,7 @@ margin-right: auto;
 
 #navbarLogo h2 {
   display: inline-block;
-  margin-left: 0px;
-}
-
-#charlesV {
-padding-left: 0;
+  margin-left: 15px;
 }
 
 #logo {
@@ -243,4 +266,8 @@ padding-left: 20px;
   text-decoration: underline;
   cursor: pointer;
   transform: scale(1.2);
+}
+
+#charlesV {
+  transform: scale(1.5);
 }

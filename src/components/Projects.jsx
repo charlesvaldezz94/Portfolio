@@ -12,7 +12,7 @@ const Projects = () => {
           <div className="projectDescription">
             <h3> Pokedex </h3>
             <p>
-              This is a work in progress, I am working on a functional pokedex.
+              A functional encyclopedia detailing information about various pokemon. This app used axios to fetch information through pokeAPI and the website was deplyed through AWS.
             </p>
           </div>
           <p>
@@ -40,7 +40,18 @@ const Projects = () => {
         </div>
 
 <div className="projectSquares">
-          <div className="projectPicture">project image</div>
+          <div className="projectPicture"> 
+          <a
+              target="_blank"
+              href="https://youtu.be/NJWDysEeAus"
+            >
+              <img
+                className="projectPic"
+                src={"/images/Dreamteam copy.png"}
+                alt="ecommerce site"
+              />
+            </a>
+            </div>
           <div className="projectDescription">
             <h3> Fullstack Academy Capstone </h3>
             <p>

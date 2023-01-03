@@ -8,7 +8,7 @@ const Resume = () => {
           
           <img
             id="ResumeProfilePic"
-            src="/images/Placeholder.png"
+            src="/images/IMG-3812.jpg"
             alt="ProfilePic"
           />
         </div>
@@ -71,9 +71,7 @@ const Resume = () => {
             <span>
             Pokedex 2022
             </span>
-            <span>
-              website url
-            </span>
+           
             <ul>
               <li> Fetched results from pokeAPI through axios </li>
               <li> Deployed through AWS </li>

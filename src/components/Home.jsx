@@ -35,7 +35,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="homeColumn">
-                    <img id="profilePic" src="/images/Placeholder.png" alt="ProfilePic" />
+                    <img id="profilePic" src="/images/IMG-3812.jpg" alt="ProfilePic" />
                 </div>
             </div>
         </div>
