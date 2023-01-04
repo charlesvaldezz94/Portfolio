@@ -8,11 +8,22 @@ const Projects = () => {
       <div className="projectSquaresContainer">
 
         <div className="projectSquares">
-          <div className="projectPicture">project image</div>
+          <div className="projectPicture">
+             <a
+              target="_blank"
+              href="https://prismatic-pika-a0e9a7.netlify.app"
+            >
+              <img
+                className="projectPic"
+                src={"/images/dex.png"}
+                alt="pokedex site"
+              />
+            </a>
+          </div>
           <div className="projectDescription">
             <h3> Pokedex </h3>
             <p>
-              A functional encyclopedia detailing information about various pokemon. This app used axios to fetch information through pokeAPI and the website was deplyed through AWS.
+              A functional encyclopedia detailing information about various pokemon. This app used axios to fetch information through pokeAPI and the website was deplyed through Netlify.
             </p>
           </div>
           <p>

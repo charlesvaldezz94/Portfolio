@@ -74,7 +74,7 @@ const Resume = () => {
            
             <ul>
               <li> Fetched results from pokeAPI through axios </li>
-              <li> Deployed through AWS </li>
+              <li> Deployed through Netlify </li>
               <li> 
             <span>
               Languages Used: HTML,
